@@ -14,9 +14,9 @@ public class Main {
         System.out.println("Escriba su estatura ");
         estatura=teclado.nextDouble();
         imc=peso/(estatura*2);
-        if(imc<=18.5){
+        if(imc<18.5){
             System.out.println("su situacion es un pejo bajo");
-        }else if(imc<=18.5 && imc>=24.9){
+        }else if(imc>=18.5 && imc<=24.9){
             System.out.println("su situacion es de peso normal");
         }else if(imc >=25 && imc <=25.9){
             System.out.println("su situacion es sobre peso de grado 1");
