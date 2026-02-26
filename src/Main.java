@@ -27,9 +27,9 @@ public class Main {
         }else if(imc >= 35 && imc <=39.9){
             System.out.println("su situacion es obecidad de tipo 2");
         }else if(imc >= 40 && imc <=49.9){
-            System.out.println("su situacion es obecidad extrema");
+            System.out.println("su situacion es obecidad morbida");
         }else{
-
+            System.out.println("su situacion es obecidad extrema");
         }
         System.out.println("su indice de masa corporal es (IMC)"+imc);
     }
